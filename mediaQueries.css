@@ -1,0 +1,12 @@
+.barreNav {
+    width: 100%;
+}
+nav a {
+    width: 50%;
+    text-align: center;
+    border-bottom: 3px solid #F2F2F2;
+}
+nav a:hover {
+    border-bottom-color: #0065FC;
+    border-top-color: transparent;
+}
