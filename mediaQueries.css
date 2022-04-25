@@ -1,10 +1,4 @@
 /***************************************************HEADER******************************************************************/
-main {
-    margin: 0 3%;
-    display: flow-root;
-
-}
-/***************************************************HEADER******************************************************************/
 .barreNav {
     width: 100%;
 }
@@ -18,13 +12,48 @@ nav a:hover {
     border-top-color: transparent;
 }
 nav img {
-    width: 1em;
-    margin: 0 40%;
+    width: 7em;
+    margin: 0 30%;
+}
+/***************************************************GENERAL******************************************************************/
+main {
+    margin: 0% 5%;
+    display: flow-root;
+    justify-content: center;
+}
+h1 {
+   font-size: x-large;
+   padding-left: 3%;  
+}
+p {
+    font-size: small;
+    padding-left: 3%;  
 }
 /******************************************BARRE DE RECHERCHE*********************************************************************/
-#boutonRecherche { 
+.barreDeRecherche {
+    align-items: baseline;
+    margin-right: 4%;
+}
+#iconLocation {
+    padding: 3%;
+    border: 2px solid #F2F2F2;
+}
+.barreDeRecherche input {
+    padding: 3%;
+    border: 1px solid #F2F2F2;
+    border-right: none;
+}
+#recherche { 
     display: none;
 }
+#boutonRecherche {
+    border: 6px solid #0065FC;
+    border-radius: 10px ;
+    padding: 2% ;
+}
 #loupeBouton {
-   display: block ;
+   display: block;
+   align-items: center;
+   color: white;
+   background-color: #0065FC;
 }
