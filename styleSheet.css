@@ -31,14 +31,13 @@
     font-family: 'ralewayRegular' ;
     src: url(/police/Raleway-Regular.ttf) format('truetype');
 }
+/********************************************ENSEMBLE DE LA PAGE***********************************************************/
 
-
-/*********************************************POLICE IMPORTE***********************************************************/
-/*********************************************en-tête******************************************************************/
 * {
     box-sizing: border-box;
     font-family: 'ralewayRegular', 'sans-serif';
 }
+/***************************************************HEADER******************************************************************/
 nav {
     display: flex;
     align-items: center;
@@ -58,8 +57,45 @@ nav a:hover {
 nav img {
     margin-right: auto;
     padding: 0 1%;
+    width: 11em;
 }
 .barreNav {
     display: flex;
+}
+/***************************************************BARRE DE RECHERCHE******************************************************************/
+main {
+    padding: 0 1%;
+}
+#loupeBouton {
+    display: none;
+}
+h1 {
+    font-size: x-large;
+    padding-top: 2%;
+}
+.barreDeRecherche{
+    display: flex;
+    align-items: center;
+}
+#iconLocation {
+    background-color: #F2F2F2;
+    padding: 1%;
+    border: 3px solid #F2F2F2;
+    border-radius: 10px 0 0 10px;
+}
+.barreDeRecherche input {
+    border: 2px solid #F2F2F2;
+    font-weight: bold;
+    color: black;
+    padding: 1% ;
 
+}
+.barreDeRecherche button {
+    border: 1px solid #0065FC;
+    text-align: center;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    font-weight: bold;
+    padding: 1%;
 }

@@ -5,12 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>the Booki website</title>
         <link rel="stylesheet" href="/normalize.css" />
-        <link rel="stylesheet" href="/styleSheet.css" />
+        <script src="https://kit.fontawesome.com/9468c33ba3.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" media="screen and (max-device-width: 470px)" href="/mediaQueries.css" />
         <link rel="stylesheet" media="all and (min-width: 790px) and (max-width: 1024px)" href="/mediaQueriesTablette.css" />
-        <script src="https://kit.fontawesome.com/9468c33ba3.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/styleSheet.css" />
     </head>
     <body>
+<!-----------------------------------------------LOGO + BARRE DE NAVIGATION----------------------------------------------------->
         <header>
             <nav>
                 <img src="./images/logo/Booki.png" alt="logoBooki" title="Logo Booki">
@@ -20,5 +21,15 @@
                 </div>
             </nav>
         </header>
+<!---------------------------------------------------BARRE DE RECHERCHE--------------------------------------------------------->
+        <main>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+            <div class="barreDeRecherche">
+                <i class="fa-solid fa-location-dot" id="iconLocation"></i>
+                <input type="search" name="ville" value="Marseille, France" >
+                <button id="boutonRecherche">Rechercher</button><i class="fa-solid fa-magnifying-glass" id="loupeBouton"><input type="submit" value=""/></i>
+            </div>
+        </main>
     </body>
 </html>
