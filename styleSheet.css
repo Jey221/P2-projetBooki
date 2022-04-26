@@ -56,15 +56,15 @@ nav a:hover {
 }
 nav img {
     margin-right: auto;
-    padding: 0 1%;
-    width: 11em;
+    padding: 0 4%;
+    width: 20em;
 }
 .barreNav {
     display: flex;
 }
 /***************************************************BARRE DE RECHERCHE******************************************************************/
 main {
-    padding: 0 1%;
+    padding: 0 4%;
 }
 #loupeBouton {
     display: none;
@@ -99,3 +99,76 @@ h1 {
     font-weight: bold;
     padding: 1%;
 }
+/***************************************************FILTRES******************************************************************/
+#blocFiltres {
+    display: flex;
+    margin-top: 2%;
+    align-items: baseline;
+    gap: 3%;
+
+
+}
+#filtres {
+    position: relative;
+    width: 80%;
+    display: inline-flex;
+    gap: 7%;
+}
+#blocFiltres p {
+    font-family: 'ralewayBold';
+    font-size: 20px;
+
+}
+#filtres div {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    border: 3px solid #F2F2F2;
+    padding: 1% 20% 1% 0;
+    border-radius: 40px;
+    width:min-content;
+    font-family: 'ralewayBold';
+
+}
+#filtres a{
+    text-decoration: none;
+
+}
+#filtres div i{
+    background-color: #DEEBFF;
+    align-items: center;
+    color:#0065FC;
+    margin: -3% 10% -3% -3%;
+    padding: 1rem;
+    border-radius: 50%;
+}
+#filtres a:hover div{
+    background-color: #0065FC;
+    color: white;
+}
+/*#listeFiltres p,h2 {
+    font-family: 'ralewayBold', sans-serif;
+}
+#listeFiltres {
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    gap: 3%;
+}
+.filtres {
+    display: flex;
+    border: 2px solid #F2F2F2;
+    border-radius: 40px;
+    padding: 1rem;
+
+
+}
+.filtres p {
+    padding: 0 1rem;
+}
+.filtres i {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    padding: 10%;
+    border-radius: 50%;
+}*/
