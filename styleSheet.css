@@ -43,6 +43,7 @@ nav {
     align-items: center;
     justify-content: flex-end;
     flex-wrap: wrap;
+    padding: 0% 2%;
 }
 nav a {
     color: inherit;
@@ -56,8 +57,8 @@ nav a:hover {
 }
 nav img {
     margin-right: auto;
-    padding: 0 4%;
-    width: 20em;
+    width: 9%;
+    MARGIN-LEFT: 1%;
 }
 .barreNav {
     display: flex;
@@ -144,6 +145,8 @@ h1 {
 }
 #filtres a:hover div{
     background-color: #0065FC;
+    transform: scale(1.2);
+    transition: all 300ms;
     color: white;
 }
 /*#listeFiltres p,h2 {
@@ -172,3 +175,71 @@ h1 {
     padding: 10%;
     border-radius: 50%;
 }*/
+/***********************************************TEXTE AVANT BLOC HEBERGEMENT******************************************************************/
+#texteAvantBloc {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    margin-top: 1%;
+    gap: 1%;
+
+}
+#texteAvantBloc i {
+    color: #0065FC;
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid #F2F2F2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/***************************************************BLOC HEBERGEMENT+POPULAIRE******************************************************************/
+/*HEBERGEMENT*/
+#blocHebergementEtPopulaire {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3%;
+}
+#blocHebergement {
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    flex-basis: 70%;
+}
+#blocHebergement a {
+    text-decoration: none;
+    font-weight: bold;
+}
+#hebergement {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.carteHebergement {
+    border: 1px solid #0065FC;
+    flex-basis: 30%;
+    margin-bottom: 2%;
+
+}
+/*POPULAIRE*/
+#blocPopulaire {
+    display: flex;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    flex-basis: 30%;
+    flex-direction: column;
+}
+#blocPopulaire i {
+padding-left: 35%;
+}
+#populaire {
+    display: flex;
+    flex-direction: column;
+}
+.cartePopulaire {
+    border: 1px solid #0065FC;
+    margin-bottom: 2%;
+}

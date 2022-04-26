@@ -13,7 +13,7 @@ nav a:hover {
 }
 nav img {
     width: 7em;
-    margin: 0 30%;
+    margin: 0 35%;
 }
 /***************************************************GENERAL******************************************************************/
 main {
@@ -66,9 +66,29 @@ p {
     display: flex;
     flex-wrap: wrap;
     width: auto;
-    gap: 3% 19%;
+    gap: 3% 12%;
 }
 #filtres div {
     margin-bottom: 10%;
     padding: 3% 20% 3% 0;
 }
+/***************************************************BLOC HEBERGEMENT+POPULAIRE******************************************************************/
+#blocHebergementEtPopulaire {
+    flex-direction: column-reverse;
+    align-items: stretch
+}
+#blocHebergement {
+    background-color: transparent;
+    border: none;
+}
+#hebergement {
+    gap: 30%;
+    justify-content: space-evenly;
+}
+.carteHebergement {
+    flex-basis: 100%;
+}
+#blocPopulaire i {
+    padding-left: 20%;
+    }
+    
