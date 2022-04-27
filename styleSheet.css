@@ -195,22 +195,26 @@ h1 {
     justify-content: center;
 }
 /***************************************************BLOC HEBERGEMENT+POPULAIRE******************************************************************/
-/*HEBERGEMENT*/
+
+/*HEBERGEMENT+POPULAIRE*/
 #blocHebergementEtPopulaire {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: stretch;
     gap: 3%;
 }
+/*HEBERGEMENT*/
 #blocHebergement {
     border: 1px solid #F2F2F2;
     border-radius: 15px;
     background-color: #F2F2F2;
-    flex-basis: 70%;
+    flex-basis: 60%;
+    padding: 2%;
 }
 #blocHebergement a {
     text-decoration: none;
-    font-weight: bold;
+    color: black;
+    font-weight: bolder;
 }
 #hebergement {
     display: flex;
@@ -218,10 +222,31 @@ h1 {
     gap: 5%;
 }
 .carteHebergement {
-    border: 1px solid #0065FC;
-    flex-basis: 30%;
+    background-color: white;
+    border-radius: 15px;
     margin-bottom: 2%;
-
+    padding: 1%;
+    box-shadow: 4px 19px 20px 0px rgb(131 128 128);
+    flex-grow: 1;
+    max-width: 220px;
+}
+.carteHebergement img {
+    border-radius: 15px 15px 0 0;
+    height: 120px;
+    width: 100%;
+    object-fit: cover;
+}
+.carteHebergement h4 {
+    margin: 3%;
+}
+.carteHebergement p {
+    margin: 1%;
+}
+.etoileBleu {
+    color: #0065FC;
+}
+.etoile {
+    color:#F2F2F2;
 }
 /*POPULAIRE*/
 #blocPopulaire {
@@ -229,17 +254,43 @@ h1 {
     border: 1px solid #F2F2F2;
     border-radius: 15px;
     background-color: #F2F2F2;
-    flex-basis: 30%;
+    flex-basis: 40%;
     flex-direction: column;
+    padding: 2%;
 }
-#blocPopulaire i {
-padding-left: 35%;
+#blocPopulaire h2 .fa-solid {
+    padding-left: 25%;
 }
 #populaire {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
 }
 .cartePopulaire {
-    border: 1px solid #0065FC;
     margin-bottom: 2%;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 15px;
+    padding: 1%;
+    max-height: 130px;
+    box-shadow: 4px 19px 20px 0px rgb(131 128 128);
 }
+.cartePopulaire img {
+    height: 125px;
+    border-radius: 15px 0 0 15px;
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 2%;
+}
+.commentairePopulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.commentairePopulaire h4,.commentairePopulaire p {
+    margin: 2%;
+}
+
