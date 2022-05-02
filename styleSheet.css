@@ -168,7 +168,6 @@ h1 {
     justify-content: center;
 }
 /***************************************************BLOC HEBERGEMENT+POPULAIRE******************************************************************/
-
 /*HEBERGEMENT+POPULAIRE*/
 #blocHebergementEtPopulaire {
     display: flex;
@@ -196,6 +195,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 5%;
+    margin-bottom: 4%;
 }
 .carteHebergement {
     background-color: white;
@@ -274,4 +274,65 @@ h1 {
 .commentairePopulaire h4,.commentairePopulaire p {
     margin: 2%;
 }
-
+/***************************************************BLOC ACTIVITES******************************************************************/
+#blocActivites {
+    margin-top: 4%;
+}
+#activites {
+    display: flex;
+    justify-content: space-between;
+}
+.colonne {
+    display: flex;
+    flex-direction: column;
+}
+.carteActivites {
+    flex: 1;
+    border-radius: 15px;
+    box-shadow: 4px 19px 20px 0px rgb(221 215 215);
+}
+.carteActivites:hover {
+    transform: scale(1.1);
+    transition: all 300ms;
+}
+.carteActivites h4 {
+    margin-left: 5%;
+}
+#vieuxPort img, #parcNationalDesCalanques img {
+    border-radius: 15px 15px 0 0;
+    height: 500px;
+    width: 310px;
+    object-fit: cover;
+}
+#fortDePomegues img , #parcLongchamp img {
+    border-radius: 15px 15px 0 0;
+    width: 310px;
+    height: 300px;
+    object-fit: cover;
+}
+#ileDuFrioul img , #notreDameDeLaGarde img {
+    border-radius: 15px 15px 0 0;
+    width: 310px;
+    height: 150px;
+    object-fit: cover;
+}
+#fortDePomegues , #notreDameDeLaGarde {
+    margin-bottom: 10%;
+}
+/***************************************************FOOTER******************************************************************/
+footer {
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20%;
+    background-color: #F2F2F2;
+    padding-left: 5%;
+}
+footer ul {
+    list-style-type: none;
+    padding-left: 0%;
+}
+footer li {
+    margin-bottom: 8px;
+}
