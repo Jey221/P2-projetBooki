@@ -13,7 +13,7 @@ nav a:hover {
 }
 nav img {
     width: 7em;
-    margin: 0 35%;
+    margin: 0 27%;
 }
 /***************************************************GENERAL******************************************************************/
 main {
@@ -74,11 +74,14 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     width: auto;
-    gap: 3% 5%;
+    gap: 3% 2%;
 }
 #filtres div {
     margin-bottom: 10%;
     padding: 3% 4% 3% 0;
+}
+#filtres div span {
+    font-size: 20px;
 }
 /***************************************************TEXTE AVT BLOC HEBERGEMENT+POPULAIRE******************************************************************/
 #texteAvantBloc {
