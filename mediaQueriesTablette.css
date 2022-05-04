@@ -1,0 +1,89 @@
+/********************************************HEADER***********************************************************/
+nav img {
+    width: 9em;
+}
+/********************************************FILTRES***********************************************************/
+#blocFiltres {
+    width: 100%;
+    gap: 3%;
+}
+#blocFiltres p {
+    font-size: 14px;
+}
+#filtres {
+    gap: 2%;
+}
+#filtres div {
+    height: 28px;
+    padding: 0 12px 0 0; 
+}
+#filtres div span {
+    font-size: 14px;
+}
+#filtres div i {
+    padding: 7px;
+}
+.fa-child-reaching {
+    height: 25px;
+    width: 25px;
+}
+/********************************************BLOC HEBERGEMENT+POPULAIRE***********************************************************/
+/*HEBERGEMENT+POPULAIRE*/
+#blocHebergementEtPopulaire {
+    gap: 1%;
+}
+/*HEBERGEMENT*/
+#blocHebergement {
+    padding: 1%;
+}
+#hebergement {
+    gap: 3%;
+}
+.carteHebergement {
+    max-width: 195px;
+}
+/*POPULAIRE*/
+#blocPopulaire h2 {
+    align-items: center;
+}
+.cartePopulaire {
+    max-height: 200px;
+    height: 200px;
+}
+.commentairePopulaire .etoile {
+    font-size: 17px;
+}
+/********************************************BLOC ACTIVITES***********************************************************/
+#activites {
+    flex-direction: column;
+}
+.carteActivites {
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 4%;
+}
+#fortDePomegues , #notreDameDeLaGarde {
+    margin-bottom: 4%;
+}
+#vieuxPort img , #parcNationalDesCalanques img , #fortDePomegues img , #parcLongchamp img , #ileDuFrioul img , #notreDameDeLaGarde img {
+    width: 100%;
+    height: 120px;
+}
+.carteActivites:hover {
+    transform: scale(1.03);
+    transition: all 300ms;
+}
+/********************************************FOOTER***********************************************************/
+footer {
+    margin-top: 0%;
+    display: flex;
+    align-items: flex-start;
+    background-color: #F2F2F2;
+    justify-content: space-evenly;
+    padding-left: 0%;
+    gap: 0%;
+}
+
+
+ 

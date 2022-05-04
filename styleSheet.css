@@ -116,7 +116,10 @@ h1 {
     font-family: 'ralewayBold';
     font-size: 20px;
 }
-
+.fa-child-reaching {
+    height: 50px;
+    width: 50px;
+}
 #filtres div {
     display: inline-flex;
     flex-direction: row;
@@ -189,6 +192,8 @@ h1 {
 #blocHebergement a {
     text-decoration: none;
     color: black;
+}
+#boutonAfficherPlus {
     font-weight: bolder;
 }
 #hebergement {
