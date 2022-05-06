@@ -147,4 +147,33 @@ h1 {
     margin-top: 25%;
     font-size: 70%;
 }
-
+/***************************************************BLOC ACTIVITES******************************************************************/
+#blocActivites {
+    width: 100%;
+    align-items: stretch;
+    padding: 2%;
+}
+#activites {
+    flex-direction: column;
+}
+.carteActivites {
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 4%;
+}
+#fortDePomegues , #notreDameDeLaGarde {
+    margin-bottom: 4%;
+}
+#vieuxPort img , #parcNationalDesCalanques img , #fortDePomegues img , #parcLongchamp img , #ileDuFrioul img , #notreDameDeLaGarde img {
+    width: 100%;
+    height: 120px;
+}
+.carteActivites:hover {
+    transform: scale(1.03);
+    transition: all 300ms;
+}
+/***************************************************FOOTER******************************************************************/
+footer {
+    flex-direction: column;
+}
