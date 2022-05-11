@@ -36,6 +36,10 @@
     box-sizing: border-box;
     font-family: 'ralewayRegular', 'sans-serif';
 }
+h1 , h2 , h4 {
+    font-family: 'ralewayBold';
+}
+
 /***************************************************HEADER******************************************************************/
 nav {
     display: flex;
@@ -136,13 +140,15 @@ h1 {
 }
 #filtres a{
     text-decoration: none;
+    font-size: 20px;
+    font-family: 'ralewayBold';
 }
 #filtres div i{
     background-color: #DEEBFF;
     align-items: center;
     color:#0065FC;
     margin: -3% 3% -3% -3%;
-    padding: 1rem;
+    padding: 17px;
     border-radius: 50%;
 }
 #filtres div:hover {
@@ -156,14 +162,15 @@ h1 {
     display: flex;
     align-items: baseline;
     justify-content: flex-start;
-    margin-top: 1%;
+    margin-top: 2%;
+    margin-bottom: 1%;
     gap: 1%;
 
 }
 #texteAvantBloc i {
     color: #0065FC;
-    height: 2rem;
-    width: 2rem;
+    height: 32px;
+    width: 32px;
     border: 1px solid #F2F2F2;
     border-radius: 50%;
     display: flex;

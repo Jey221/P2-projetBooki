@@ -1,6 +1,6 @@
 /********************************************HEADER***********************************************************/
 nav img {
-    width: 9em;
+    width: 140px;
 }
 /********************************************FILTRES***********************************************************/
 #blocFiltres {
@@ -36,6 +36,9 @@ nav img {
 #blocHebergement {
     padding: 1%;
 }
+#blocHebergement h2 {
+    font-size: 22px;
+}
 #hebergement {
     gap: 3%;
 }
@@ -45,6 +48,7 @@ nav img {
 /*POPULAIRE*/
 #blocPopulaire h2 {
     align-items: center;
+    font-size: 22px;
 }
 .cartePopulaire {
     max-height: 200px;
