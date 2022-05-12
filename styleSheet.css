@@ -308,7 +308,7 @@ h1 {
     color: black;
 }
 .carteActivites:hover {
-    transform: scale(1.1);
+    transform: scale(1.07);
     transition: all 300ms;
 }
 .carteActivites h4 {

@@ -5,27 +5,31 @@ nav img {
 /********************************************FILTRES***********************************************************/
 #blocFiltres {
     width: 100%;
-    gap: 3%;
+    gap: 2%;
 }
 #blocFiltres p {
-    font-size: 14px;
+    font-size: 20px;
 }
 #filtres {
     gap: 2%;
+    width: 100%;
 }
 #filtres div {
-    height: 28px;
-    padding: 0 12px 0 0; 
+    height: 30px;
+    padding: 0 9px 0 0; 
 }
 #filtres div span {
-    font-size: 14px;
+    font-size: 16px;
 }
 #filtres div i {
     padding: 7px;
 }
+#filtres a {
+    font-size: 17px;
+}
 .fa-child-reaching {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 29px;
 }
 /********************************************BLOC HEBERGEMENT+POPULAIRE***********************************************************/
 /*HEBERGEMENT+POPULAIRE*/
