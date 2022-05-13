@@ -34,11 +34,12 @@ nav img {
 /********************************************BLOC HEBERGEMENT+POPULAIRE***********************************************************/
 /*HEBERGEMENT+POPULAIRE*/
 #blocHebergementEtPopulaire {
-    gap: 1%;
+    flex-direction: column;
 }
 /*HEBERGEMENT*/
 #blocHebergement {
     padding: 1%;
+    margin-bottom: 2%;
 }
 #blocHebergement h2 {
     font-size: 22px;

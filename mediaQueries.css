@@ -21,7 +21,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-content: center;
     padding: 0%;
     align-items: flex-start;
 }
@@ -36,7 +35,7 @@ h1 {
 /******************************************BARRE DE RECHERCHE*********************************************************************/
 .barreDeRecherche {
     align-items: center;
-    width: 150%;
+    width: 330px;
     margin-left: 6%;
     
 }
