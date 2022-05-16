@@ -1,35 +1,11 @@
 /*********************************************POLICE IMPORTE***********************************************************/
 @font-face {
-    font-family: 'ralewayBlack' ;
-    src: url(/police/Raleway-Black.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'ralewayBlackItalic' ;
-    src: url(/police/Raleway-BlackItalic.ttf) format('truetype');
-}
-@font-face {
     font-family: 'ralewayBold' ;
-    src: url(/police/Raleway-Bold.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'ralewaymedium' ;
-    src: url(/police/Raleway-Medium.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'ralewayThin' ;
-    src: url(/police/Raleway-Thin.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'ralewayLight' ;
-    src: url(/police/Raleway-Light.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'ralewayExtraLight' ;
-    src: url(/police/Raleway-ExtraLight.ttf) format('truetype');
+    src: url(/Koundour_Jeremy_4_police_052022/police/Raleway-Bold.ttf) format('truetype');
 }
 @font-face {
     font-family: 'ralewayRegular' ;
-    src: url(/police/Raleway-Regular.ttf) format('truetype');
+    src: url(/Koundour_Jeremy_4_police_052022/police/Raleway-Regular.ttf) format('truetype');
 }
 /********************************************ENSEMBLE DE LA PAGE***********************************************************/
 * {
