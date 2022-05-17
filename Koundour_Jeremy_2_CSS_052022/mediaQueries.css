@@ -37,7 +37,6 @@ h1 {
     align-items: center;
     width: 330px;
     margin-left: 6%;
-    
 }
 #iconLocation {
     padding: 3%;
@@ -75,11 +74,11 @@ h1 {
     width: auto;
     gap: 3% 2%;
 }
-#filtres div {
+.carteFiltre {
     margin-bottom: 10%;
     padding: 3% 4% 3% 0;
 }
-#filtres div span {
+.carteFiltre span {
     font-size: 20px;
 }
 /***************************************************TEXTE AVT BLOC HEBERGEMENT+POPULAIRE******************************************************************/
@@ -88,7 +87,6 @@ h1 {
     margin-left: 4%;
     margin-bottom: 5%;
 }
-
 /***************************************************BLOC HEBERGEMENT+POPULAIRE******************************************************************/
 #blocHebergementEtPopulaire {
     flex-direction: column-reverse;

@@ -14,14 +14,14 @@ nav img {
     gap: 2%;
     width: 100%;
 }
-#filtres div {
+.carteFiltre {
     height: 30px;
     padding: 0 9px 0 0; 
 }
-#filtres div span {
+.carteFiltre span {
     font-size: 16px;
 }
-#filtres div i {
+.carteFiltre i {
     padding: 7px;
 }
 #filtres a {
