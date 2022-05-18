@@ -88,9 +88,9 @@ h1 {
 }
 #filtres {
     position: relative;
-    width: 80%;
+    width: 100%;
     display: inline-flex;
-    gap: 7%;
+    gap: 5%;
 }
 #blocFiltres p {
     font-family: 'ralewayBold';
@@ -193,7 +193,7 @@ h1 {
     padding: 1%;
     box-shadow: 4px 19px 20px 0px rgb(221 215 215);
     flex-grow: 1;
-    max-width: 220px;
+    max-width: 195px;
 }
 .carteHebergement img {
     border-radius: 15px 15px 0 0;
@@ -293,19 +293,19 @@ h1 {
 }
 #vieuxPort img, #parcNationalDesCalanques img {
     border-radius: 15px 15px 0 0;
+    width: 280px;
     height: 500px;
-    width: 310px;
     object-fit: cover;
 }
 #fortDePomegues img , #parcLongchamp img {
     border-radius: 15px 15px 0 0;
-    width: 310px;
+    width: 280px;
     height: 300px;
     object-fit: cover;
 }
 #ileDuFrioul img , #notreDameDeLaGarde img {
     border-radius: 15px 15px 0 0;
-    width: 310px;
+    width: 280px;
     height: 150px;
     object-fit: cover;
 }
